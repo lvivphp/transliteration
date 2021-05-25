@@ -1,0 +1,34 @@
+{
+    "name": "lvivphp/transliteration",
+    "type": "library",
+	"version": "dev-master",
+    "description": "Language transliteration",
+	"keywords": [
+        "language", "transliteration"
+    ],
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "lvivphp",
+			"email": "webdeveloper@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.1"
+    },
+	"autoload": {
+        "psr-4": {
+            "Lvivphp\\Transliteration\\": "src/"
+        }
+    },
+	"autoload-dev": {
+        "psr-4": {
+            "Lvivphp\\Transliteration\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
